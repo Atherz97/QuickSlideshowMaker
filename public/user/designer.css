@@ -1,0 +1,168 @@
+body {
+	font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+	margin: auto;
+	width: 100%;
+}
+
+.designer {
+	width: 100%;
+	max-width: 960px;
+	margin: auto;
+}
+
+.new_frame {
+	width: 100%;
+	max-width: 940px;
+	margin: auto;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2, h3, h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.new_frame h2 {
+	margin-bottom: 0;
+}
+
+h4 {
+	font-size: 14px;
+}
+
+.new_list input {
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: white;
+	color: black;
+	border: 2px #ddd solid;
+}
+.new_text textarea {
+	width: 90%;
+	font-size: 18px;
+	padding: 5px;
+	margin-bottom: 10px;
+	max-width: 930px;
+	background-color: white;
+	color: black;
+	border: 2px #ddd solid;
+}
+
+textarea {
+	resize: none;
+}
+
+button {
+	background-color: #3b3;
+	color: white;
+	font-size: 18px;
+	border: hidden;
+	margin: 10px;
+	width: 240px;
+	height: 30px;
+}
+
+button:hover {
+	background-color: #6f6;
+}
+
+button.minor  {
+	background-color: #37d;
+	width: 200px;
+	height: 30px;
+	margin: 0;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+button.minor:hover {
+	background-color: #69f;
+}
+
+button.tiny  {
+	background-color: #aaa;
+	padding: 5px;
+	font-size: 12px;
+	width: 120px;
+	margin: 2px;
+}
+
+button.tiny:hover {
+	background-color: #ddd;
+}
+
+.header, .footer {
+	color: white;
+	background-color: #a01018;
+	padding: 10px;
+}
+
+hr {
+	width: 100%;
+}
+
+/* */
+.rp-fullscreen-hider {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+}
+
+.rp-modal {
+	max-width: 100%;
+	width: 600px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 8px;
+	position: relative;
+}
+
+.rp-modal h2 {
+	margin: 0;
+	text-align: center;
+}
+
+.rp-modal input {
+	max-width: 570px;
+	width: 100%;
+	background-color: white;
+	color: black;
+	border: 2px #ddd solid;
+	padding: 8px;
+	
+}
+
+.rp-modal a {
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+	text-decoration: underline;
+}
+
+.rp-modal p {
+	line-height: 180%;
+}
+
+button .rp-modal {
+	background-color: #50e450;
+	color: #002d00;
+	border: hidden;
+	padding: 10px 15px;
+	margin-top: 5px;
+	margin: auto;
+	height: 30px;
+	width: 80px;
+	font-size: 14px;
+}
+
+.rp-modal img {
+	margin: 10px;
+}
